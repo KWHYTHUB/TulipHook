@@ -32,7 +32,7 @@ elseif (ANDROID)
 endif()
 
 
-CPMAddPackage("gh:geode-sdk/capstone#d2a14e5")
+CPMAddPackage("gh:KWHYTHUB/capstone#d2a14e5")
 
 target_link_libraries(${PROJECT_NAME} PRIVATE capstone Dobby)
 target_link_libraries(${PROJECT_NAME} PUBLIC Result)
